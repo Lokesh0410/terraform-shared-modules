@@ -1,4 +1,8 @@
 variable "cidr_block" {
   description = "CIDR block for the VPC"
-  type = string
+  type        = string
+}
+
+variable "vpc_tags" {
+  description = "tags for VPC"
 }
